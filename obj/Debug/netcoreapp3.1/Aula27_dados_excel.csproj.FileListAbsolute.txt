@@ -1,0 +1,13 @@
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\bin\Debug\netcoreapp3.1\Aula27_dados_excel.exe
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\bin\Debug\netcoreapp3.1\Aula27_dados_excel.deps.json
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\bin\Debug\netcoreapp3.1\Aula27_dados_excel.runtimeconfig.json
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\bin\Debug\netcoreapp3.1\Aula27_dados_excel.runtimeconfig.dev.json
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\bin\Debug\netcoreapp3.1\Aula27_dados_excel.dll
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\bin\Debug\netcoreapp3.1\Aula27_dados_excel.pdb
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\obj\Debug\netcoreapp3.1\Aula27_dados_excel.csprojAssemblyReference.cache
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\obj\Debug\netcoreapp3.1\Aula27_dados_excel.csproj.CoreCompileInputs.cache
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\obj\Debug\netcoreapp3.1\Aula27_dados_excel.AssemblyInfoInputs.cache
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\obj\Debug\netcoreapp3.1\Aula27_dados_excel.AssemblyInfo.cs
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\obj\Debug\netcoreapp3.1\Aula27_dados_excel.dll
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\obj\Debug\netcoreapp3.1\Aula27_dados_excel.pdb
+C:\Users\duart\OneDrive\Área de Trabalho\aulas do senai\POO\Aula27_dados_excel\obj\Debug\netcoreapp3.1\Aula27_dados_excel.genruntimeconfig.cache
