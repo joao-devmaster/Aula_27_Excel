@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace Aula27_dados_excel
 {
@@ -12,6 +13,10 @@ namespace Aula27_dados_excel
             p.Preco = 21.98f;
 
             p.Inserir(p);
+
+          
+           
         }
+
     }
 }
