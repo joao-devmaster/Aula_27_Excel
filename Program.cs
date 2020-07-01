@@ -1,4 +1,5 @@
-﻿
+﻿using System.Collections.Generic;
+
 using System;
 
 namespace Aula27_dados_excel
@@ -14,8 +15,16 @@ namespace Aula27_dados_excel
 
             p.Inserir(p);
 
-          
-           
+       List<Produto> lista1 = new List<Produto>();
+        lista1 = p.Ler();
+
+        foreach (Produto item in lista1)
+        {
+            System.Console.WriteLine($"R$ {item.Preco} - {item.Nome} ");
+
+        }
+
+         
         }
 
     }

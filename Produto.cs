@@ -92,13 +92,9 @@ namespace Aula27_dados_excel
 
         }
 
-         List<Produto> Lista = new List<Produto>();
-               Lista = p.Ler();
-
-         foreach (Produto p in Lista)
-         {
-             System.Console.WriteLine($"R$ {p.Preco} - {p.Nome} ");
-         }
+       
+ 
+        
 
 
 
