@@ -27,6 +27,20 @@ namespace Aula27_28_29_30
                 Console.WriteLine($"Produto: {item.Nome} custa R$ {item.Preco}");
             }
 
+            Produto alteradinho = new Produto();
+            alteradinho.Codigo = 8;
+            alteradinho.Nome = "play 4";
+            alteradinho.Preco = 4500F;
+            p.Alterar(alteradinho);
+
+            List<Produto> lista = new List<Produto>();
+            lista = p.Ler();
+
+            foreach(Produto item in lista)
+            {
+                System.Console.WriteLine($"{item.Preco} - {item.Nome}");
+            }
+
             
         }
     

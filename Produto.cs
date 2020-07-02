@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System;
+using System.Linq;
 
 namespace Aula27_28_29_30
 {
@@ -77,10 +78,44 @@ namespace Aula27_28_29_30
                 //Adicionar o produto tratado na lista                
                 produto1.Add(prod);
 
+               
+
+                
+
             }
+            
+                    //utilizaremos linq para ordenar nossa lista corretamente pelo código
+                    produto1 = produto1.OrderBy(z => z.Codigo).ToList();
+                     return produto1;
 
-            return produto1;
+        }
 
+        //para alterar e manipular dados
+        public void Alterar(Produto _produtoAlterado){
+
+            //criamos uma lista de string para salvar as linhas no csv
+            List<string> lines = new List<string>();
+
+            //utilizamos o suing para abrir e fechar o nosso arquivo com a base de dados
+            using(StreamReader file = new StreamReader(PATH)){
+
+                //lemos o arquivo
+                string line;
+                while((line = file.ReadLine()) != null)
+                {
+                    lines.Add(line);
+                } 
+
+                //removemos a linha com o código 
+                lines.Add(PrepararLinhaCSV(_produtoAlterado) );
+
+            }
+            
+            //reescrevemos o arquivo
+            using (StreamWriter output = new StreamWriter(PATH) )
+            {
+                output.Write(string.Join(Environment.NewLine, lines.ToArray()));
+            }
         }
 
         /// <summary>
